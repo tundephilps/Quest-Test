@@ -5,6 +5,9 @@ import ConvenienceSection from "../components/Convenience";
 import Slider from "../components/Slider";
 import OnlyCenter from "../components/OnlyCenter";
 import Christmas from "../components/Christmas";
+import Gallery from "../components/Gallery";
+import Asset from "../components/Asset";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -15,6 +18,9 @@ const Homepage = () => {
       <div className="h-[30vh]" />
       <OnlyCenter />
       <Christmas />
+      <Gallery />
+      <Asset />
+      <Footer />
     </div>
   );
 };

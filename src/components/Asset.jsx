@@ -1,4 +1,5 @@
 import React from "react";
+import First from "/One.png";
 
 const Asset = () => {
   return (
@@ -23,8 +24,8 @@ const Asset = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white tracking-wide mb-2">
             MIRAE ASSET
           </h1>
-          <h2 className="text-3xl md:text-5xl text-white font-bold tracking-widest">
-            CENTER <span className="text-white">1</span>
+          <h2 className="text-5xl text-white font-bold tracking-widest inline-flex">
+            CENTER <img src={First} className="h-10" />
           </h2>
         </div>
 

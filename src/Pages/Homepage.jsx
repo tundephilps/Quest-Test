@@ -15,7 +15,6 @@ const Homepage = () => {
       <Hero />
       <ConvenienceSection />
       <Slider />
-      <div className="h-[30vh]" />
       <OnlyCenter />
       <Christmas />
       <Gallery />

@@ -4,10 +4,11 @@ import { RiCustomerServiceLine } from "react-icons/ri";
 import { HiOutlineCalendar } from "react-icons/hi";
 import { IoArrowUpCircleOutline } from "react-icons/io5";
 import { CgCopy } from "react-icons/cg";
+import { LuDot } from "react-icons/lu";
 
 const Christmas = () => {
   return (
-    <div className="bg-[#eceff1] py-10 relative">
+    <div className="bg-[#eceff1] py-32 relative">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Column - Current Event */}
         <div className="  p-6 rounded-lg">
@@ -15,7 +16,7 @@ const Christmas = () => {
             <h2 className="text-xl font-bold text-gray-800 mb-4">
               지금 살펴봐야할 이벤트
             </h2>
-            <IoIosAddCircleOutline className="text-2xl text-[#00427a]" />
+            <IoIosAddCircleOutline className="text-2xl text-[#00427a] " />
           </div>
 
           <div className="flex flex-col pt-8">
@@ -30,10 +31,13 @@ const Christmas = () => {
               </h3>
               <p className="text-sm text-gray-600 mt-2">
                 <ul>
-                  <li>공연 주제 : 재즈 공연</li>
-                  <li>
-                    장소 : 1층 계단 앞(연주), 1층 크리스마스 트리 앞(다과 및
-                    커피 배포)
+                  <li className="inline-flex">
+                    <LuDot />
+                    공연 주제 : 재즈 공연
+                  </li>
+                  <li className="inline-flex">
+                    <LuDot /> 장소 : 1층 계단 앞(연주), 1층 크리스마스 트리
+                    앞(다과 및 커피 배포)
                   </li>
                 </ul>
               </p>
@@ -53,22 +57,24 @@ const Christmas = () => {
             <IoIosAddCircleOutline className="text-2xl text-[#00427a]" />
           </div>
 
-          <div className="space-y-4 pt-8">
+          <div className="space-y-4 pt-8 text-[#2c2c2c] lg:text-[#00427a]">
             <div>
-              <h3 className="text-lg font-semibold text-[#00427a]">
+              <h3 className="text-lg font-semibold ">
                 미래에셋센터원 홈페이지 리뉴얼 안내
               </h3>
-              <p className="text-sm  mt-2 text-[#00427a]">
+              <p className="text-sm  mt-2 lg:text-[#00427a] text-[#979797]">
                 미래에셋센터원의 홈페이지가 새롭게 단장되었습니다. 더 나은
                 서비스 제공을 위해 변화를 확인해보세요.
               </p>
-              <p className="text-xs text-[#00427a] mt-4">2024.04.06</p>
+              <p className="text-xs lg:text-[#00427a] text-[#979797] mt-4">
+                2024.04.06
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div className="flex flex-col gap-4 absolute right-4 bottom-12">
-        <div className="bg-[#00427a] p-2 text-white rounded-md flex flex-col items-center gap-2">
+        <div className="lg:bg-[#00427a] bg-white border border-[#00427a] p-2 lg:text-white text-[#00427a] rounded-md flex flex-col items-center gap-2">
           {" "}
           <RiCustomerServiceLine className="text-2xl" />
           <p className="text-xs">주요문의처</p>

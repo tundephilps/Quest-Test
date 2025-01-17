@@ -28,19 +28,6 @@ const Asset = () => {
             CENTER <img src={First} className="h-10" />
           </h2>
         </div>
-
-        {/* Korean Text */}
-        <div className="absolute top-8 right-8 text-blue-600 text-xl font-medium">
-          미래에셋
-        </div>
-
-        {/* Decorative Elements */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <div className="flex justify-center space-x-8 mb-8">
-            <div className="w-24 h-16 bg-pink-400/20 rounded-lg" />
-            <div className="w-24 h-16 bg-blue-400/20 rounded-lg" />
-          </div>
-        </div>
       </div>
     </div>
   );
